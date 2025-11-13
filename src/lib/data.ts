@@ -121,3 +121,68 @@ export const achievementsData = [
     description: "Placed as a finalist in a competitive programming contest, solving complex algorithmic challenges under pressure.",
   },
 ];
+
+export const resumeData = {
+  name: 'GINIM NARANG',
+  contact: {
+    email: 'ginim654@gmail.com',
+    phone: '+91 9625822349',
+    linkedin: 'https://linkedin.com/in/ginim-narang-631924283',
+  },
+  education: {
+    degree: 'Bachelor of Computer Application (BCA)',
+    institution: 'BVIMR',
+    duration: '2024–2027',
+    cgpa: '9.25',
+    details: [
+      'Active Coding Club Member',
+      'Participated & Won Hackathons',
+      'Completed Internship Program',
+    ],
+  },
+  projects: [
+    {
+      title: 'Attendance Monitoring System',
+      points: [
+        'Messaging, calling & video-enabled attendance system.',
+        'Role-based system for teachers, students, admins.',
+        'Secure login, dashboards & real-time DB sync.',
+      ],
+    },
+    {
+      title: 'Sales Management App',
+      points: [
+        'Created a complete sales app with separate Retailer, Distributor, and Admin views.',
+        'Enabled order creation, product listing, invoice generation & sales tracking.',
+        'Added role-based authentication and clean dashboard UI for each user type.',
+      ],
+    },
+    {
+      title: 'Dynamic Mini Projects',
+      points: [
+        'Responsive UI/UX focused websites.',
+        'Built with clean, accessible frontend architecture.',
+      ],
+    },
+    {
+      title: 'Trading & Financial Tools (Mini-Projects)',
+      points: [
+        'Designed micro-tools for portfolio analysis & charts.',
+        'Built logic-based modules used for financial tracking.',
+      ],
+    },
+  ],
+  achievements: [
+    'Participated in national & regional hackathons.',
+    'Organized technical fests, coding competitions, hackathons.',
+    'Mentored juniors in coding logic & project building.',
+    'Built strong problem-solving & collaboration skills.',
+  ],
+  skills: {
+    languages: ['C', 'C++', 'Java', 'Python', 'JavaScript'],
+    frontend: ['HTML', 'CSS', 'JavaScript'],
+    backend: ['API Integration', 'DBMS'],
+    tools: ['VS Code', 'GitHub'],
+    other: ['System Design', 'OOP', 'Financial Analysis'],
+  },
+};

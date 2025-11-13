@@ -38,8 +38,8 @@ const Hero = () => {
         </div>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button size="lg" asChild className="neon-glow group transition-transform duration-300 ease-in-out hover:scale-105">
-            <a href="/Ginim-Narang-Resume.pdf" download>
-              Download Resume
+            <a href="/resume" target="_blank" rel="noopener noreferrer">
+              View Resume
             </a>
           </Button>
           <Button size="lg" variant="outline" asChild className="border-primary/50 text-primary transition-all duration-300 ease-in-out hover:scale-105 hover:bg-primary/10 hover:shadow-[0_0_15px_hsl(var(--primary)/0.5)]">
