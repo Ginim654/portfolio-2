@@ -5,7 +5,7 @@ const Achievements = () => {
   return (
     <section id="achievements" className="py-24 sm:py-32">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center font-headline text-3xl font-bold tracking-tight sm:text-4xl text-glow">
+        <h2 className="text-center font-headline text-3xl font-bold tracking-tight sm:text-4xl">
           Hackathons & Achievements
         </h2>
         <div className="relative mt-12">
@@ -19,7 +19,7 @@ const Achievements = () => {
               </div>
               <div className={`mt-4 flex ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
                 <div className={`w-full px-4 md:w-1/2 ${index % 2 === 0 ? 'md:pr-8' : 'md:pl-8'}`}>
-                  <Card className="card-glow glassmorphic">
+                  <Card className="glassmorphic transition-all duration-300 hover:shadow-[0_0_15px_hsl(var(--primary)/0.1)]">
                     <CardHeader>
                       <CardTitle className="font-headline text-lg">{item.title}</CardTitle>
                       <p className="text-sm text-muted-foreground">{item.date}</p>

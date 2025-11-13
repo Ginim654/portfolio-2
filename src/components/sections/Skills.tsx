@@ -10,7 +10,7 @@ const Skills = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-4">
               <Laptop className="h-10 w-10 text-primary" />
-              <h2 className="font-headline text-3xl font-bold sm:text-4xl text-glow">
+              <h2 className="font-headline text-3xl font-bold sm:text-4xl">
                 My Digital Toolbelt
               </h2>
             </div>
@@ -24,7 +24,7 @@ const Skills = () => {
                 const CustomIcon = Icons[skill.name as keyof typeof Icons];
                 const IconComponent = skill.icon as React.ElementType;
                 return (
-                  <div key={skill.name} className="group flex flex-col items-center justify-center gap-2 rounded-lg bg-card/50 p-4 transition-all duration-300 hover:bg-primary/10 card-glow">
+                  <div key={skill.name} className="group flex flex-col items-center justify-center gap-2 rounded-lg bg-card/50 p-4 transition-all duration-300 hover:bg-primary/10">
                     {CustomIcon ? (
                       <CustomIcon className="h-12 w-12" />
                     ) : (

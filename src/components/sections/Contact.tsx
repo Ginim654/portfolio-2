@@ -52,7 +52,7 @@ const Contact = () => {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
           <div className="flex flex-col justify-center">
-            <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-glow">
+            <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
               Get In Touch
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
@@ -116,7 +116,7 @@ const Contact = () => {
                     </FormItem>
                   )}
                 />
-                <Button type="submit" disabled={isPending} className="w-full neon-glow">
+                <Button type="submit" disabled={isPending} className="w-full">
                   {isPending ? "Sending..." : "Send Message"}
                 </Button>
               </form>

@@ -25,7 +25,7 @@ const Hero = () => {
 
       <div className="container mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
         <h1 className="font-headline text-5xl font-extrabold tracking-tight sm:text-6xl md:text-7xl">
-          <span className="block text-glow">Hi, I&apos;m {heroData.name}</span>
+          <span className="block">Hi, I&apos;m {heroData.name}</span>
         </h1>
         <div className="mt-6">
           <p className="mx-auto max-w-3xl text-lg text-muted-foreground sm:text-xl md:text-2xl">
@@ -37,12 +37,12 @@ const Hero = () => {
           </p>
         </div>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Button size="lg" asChild className="neon-glow group transition-transform duration-300 ease-in-out hover:scale-105">
+          <Button size="lg" asChild className="group transition-transform duration-300 ease-in-out hover:scale-105">
             <a href="/resume" target="_blank" rel="noopener noreferrer">
               View Resume
             </a>
           </Button>
-          <Button size="lg" variant="outline" asChild className="border-primary/50 text-primary transition-all duration-300 ease-in-out hover:scale-105 hover:bg-primary/10 hover:shadow-[0_0_15px_hsl(var(--primary)/0.5)]">
+          <Button size="lg" variant="outline" asChild className="border-primary/50 text-primary transition-all duration-300 ease-in-out hover:scale-105 hover:bg-primary/10">
             <Link href="#projects">
               View Projects
             </Link>

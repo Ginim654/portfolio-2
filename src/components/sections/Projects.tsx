@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <section id="projects" className="bg-secondary/50 py-24 sm:py-32">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center font-headline text-3xl font-bold tracking-tight sm:text-4xl text-glow">
+        <h2 className="text-center font-headline text-3xl font-bold tracking-tight sm:text-4xl">
           My Projects
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-muted-foreground">
@@ -22,7 +22,7 @@ const Projects = () => {
           {projectsData.map((project, index) => {
             const placeholder = PlaceHolderImages.find(p => p.id === project.imageId);
             return (
-              <Card key={index} className="card-glow glassmorphic flex flex-col overflow-hidden">
+              <Card key={index} className="glassmorphic flex flex-col overflow-hidden transition-all duration-300 hover:shadow-[0_0_15px_hsl(var(--primary)/0.1)]">
                 <CardHeader>
                   <div className="relative h-48 w-full">
                     <Image
