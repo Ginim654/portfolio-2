@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "quantaloop",
-      "description": "A modern website for a technology company called Quantaloop.",
+      "description": "A modern website for a technical society called Quantaloop.",
       "imageUrl": "/quantaloop-logo.png",
-      "imageHint": "company logo"
+      "imageHint": "society logo"
     },
     {
       "id": "attendance-monitoring",

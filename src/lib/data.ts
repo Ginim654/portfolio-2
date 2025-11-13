@@ -47,7 +47,7 @@ export const skillsData = [
 export const projectsData = [
   {
     title: "Quantaloop Website",
-    description: "A modern and responsive website for the Quantaloop company.",
+    description: "A modern and responsive website for the Quantaloop technical society.",
     tech: ["Next.js", "React", "Tailwind CSS"],
     link: "https://quanta-loop.vercel.app/",
     imageId: "quantaloop",
