@@ -98,11 +98,11 @@ export const projectsData = [
     imageId: "portfolio",
   },
   {
-    title: "AI Chatbot",
-    description: "An intelligent chatbot project exploring natural language processing and AI.",
-    tech: ["Python", "NLTK"],
+    title: "Real-time Texting App",
+    description: "A real-time messaging application for instant communication, powered by Firebase.",
+    tech: ["Next.js", "Firebase", "Tailwind CSS"],
     link: "#",
-    imageId: "chatbot",
+    imageId: "texting-app",
   },
 ];
 
