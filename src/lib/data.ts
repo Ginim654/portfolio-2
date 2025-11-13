@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Trophy, Users, Briefcase, Lightbulb, Bot, Code, Palette, Server, Terminal, Wrench, Database, GitBranch, Type, CodeXml, Component, Wind, ServerCog, BookOpen } from 'lucide-react';
+import { Linkedin, Mail, Trophy, Users, Briefcase, Lightbulb, Bot, Code, Palette, Server, Terminal, Wrench, Database, GitBranch, Type, CodeXml, Component, Wind, ServerCog, BookOpen, Phone } from 'lucide-react';
 import { Icons } from '@/components/icons';
 
 export const navLinks = [
@@ -13,6 +13,7 @@ export const navLinks = [
 export const socialLinks = [
   { name: 'LinkedIn', href: 'https://linkedin.com/in/ginim-narang-631924283', icon: Linkedin },
   { name: 'Email', href: 'mailto:ginim654@gmail.com', icon: Mail },
+  { name: 'Phone', href: 'tel:9625822349', icon: Phone },
 ];
 
 export const heroData = {
@@ -63,7 +64,7 @@ export const projectsData = [
     description: "An application designed to manage sales data, track performance, and generate reports.",
     tech: ["Python", "Financial Tools"],
     link: "#",
-    imageId: "sales-management",
+imageId: "sales-management",
   },
   {
     title: "Dynamic Mini Projects",
