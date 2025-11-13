@@ -100,7 +100,7 @@ export const projectsData = [
   {
     title: "Real-time Texting App",
     description: "A real-time messaging application for instant communication.",
-    tech: ["Next.js", "Firebase", "Tailwind CSS"],
+    tech: ["Next.js", "Tailwind CSS"],
     link: "#",
     imageId: "texting-app",
   },
