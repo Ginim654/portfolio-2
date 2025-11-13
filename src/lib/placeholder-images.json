@@ -3,8 +3,8 @@
     {
       "id": "quantaloop",
       "description": "A modern website for a technology company called Quantaloop.",
-      "imageUrl": "https://images.unsplash.com/photo-1554672408-730424546a47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3ZWJzaXRlJTIwZGVzaWdufGVufDB8fHx8MTc2NzM5MjAwOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "website design"
+      "imageUrl": "/quantaloop-logo.png",
+      "imageHint": "company logo"
     },
     {
       "id": "attendance-monitoring",
