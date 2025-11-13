@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "attendance-monitoring",
+      "description": "An abstract representation of data and biometrics for attendance.",
+      "imageUrl": "https://images.unsplash.com/photo-1646861108770-d645014b8f48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiaW9tZXRyaWMlMjBkYXRhfGVufDB8fHx8MTc2MzAxOTYyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "biometric data"
+    },
+    {
+      "id": "sales-management",
+      "description": "A dashboard showing sales charts and graphs.",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWxlcyUyMGRhc2hib2FyZHxlbnwwfHx8fDE3NjI5NTg0NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sales dashboard"
+    },
+    {
+      "id": "mini-projects",
+      "description": "A collage of different code snippets and UI elements.",
+      "imageUrl": "https://images.unsplash.com/photo-1754342536492-409f90c637e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2RlJTIwY29sbGFnZXxlbnwwfHx8fDE3NjMwMTk2Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code collage"
+    },
+    {
+      "id": "trading-tools",
+      "description": "A screen with financial charts and stock market data.",
+      "imageUrl": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdG9jayUyMG1hcmtldHxlbnwwfHx8fDE3NjI5ODkwNzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stock market"
+    },
+    {
+      "id": "portfolio",
+      "description": "Abstract design representing a personal brand.",
+      "imageUrl": "https://images.unsplash.com/photo-1555680510-34daedadbdb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGNvZGV8ZW58MHx8fHwxNzYyOTk3MjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract code"
+    },
+    {
+      "id": "chatbot",
+      "description": "A visual of a chat interface with an AI bot.",
+      "imageUrl": "https://images.unsplash.com/photo-1678491449021-762a7b999862?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxBSSUyMGNoYXR8ZW58MHx8fHwxNzYzMDE5NjI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI chat"
+    }
+  ]
 }
