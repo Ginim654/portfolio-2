@@ -21,17 +21,30 @@ const Projects = () => {
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projectsData.map((project, index) => {
             const placeholder = PlaceHolderImages.find(p => p.id === project.imageId);
+            const isLocal = placeholder?.imageUrl.startsWith('/');
+
             return (
               <Card key={index} className="glassmorphic flex flex-col overflow-hidden transition-all duration-300 hover:shadow-[0_0_15px_hsl(var(--primary)/0.1)]">
                 <CardHeader>
                   <div className="relative h-48 w-full">
-                    <Image
-                      src={placeholder?.imageUrl || "https://picsum.photos/seed/1/600/400"}
-                      alt={project.title}
-                      fill
-                      className="rounded-t-lg object-cover"
-                      data-ai-hint={placeholder?.imageHint || 'technology abstract'}
-                    />
+                    {isLocal ? (
+                       <Image
+                         src={placeholder?.imageUrl || "/quantaloop-logo.png"}
+                         alt={project.title}
+                         width={600}
+                         height={400}
+                         className="rounded-t-lg object-contain w-full h-full"
+                         data-ai-hint={placeholder?.imageHint || 'technology abstract'}
+                       />
+                    ) : (
+                      <Image
+                        src={placeholder?.imageUrl || "https://picsum.photos/seed/1/600/400"}
+                        alt={project.title}
+                        fill
+                        className="rounded-t-lg object-cover"
+                        data-ai-hint={placeholder?.imageHint || 'technology abstract'}
+                      />
+                    )}
                   </div>
                 </CardHeader>
                 <CardContent className="flex-grow">
