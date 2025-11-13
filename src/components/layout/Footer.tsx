@@ -48,8 +48,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <p className="font-semibold">Contact</p>
-              <ul className="mt-4 space-y-2 text-sm">
+              <ul className="mt-4 space-y-2 text-sm pt-8">
                 <li>
                   <a
                     href="mailto:ginim654@gmail.com"
