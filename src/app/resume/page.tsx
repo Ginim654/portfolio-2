@@ -1,4 +1,6 @@
-import { Mail, Phone, Linkedin, MapPin, Globe } from 'lucide-react';
+"use client";
+
+import { Mail, Phone, Linkedin } from 'lucide-react';
 import { resumeData } from '@/lib/data';
 
 const ResumePage = () => {
