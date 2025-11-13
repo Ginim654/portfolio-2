@@ -98,7 +98,7 @@ export const achievementsData = [
   {
     icon: Users,
     title: "Organized College Tech Fest",
-    date: "2024",
+    date: "2025",
     description: "Led the organizing committee for our annual technical festival, coordinating multiple coding competitions and workshops.",
   },
   {
