@@ -91,9 +91,9 @@ export const projectsData = [
 export const achievementsData = [
   {
     icon: Trophy,
-    title: "National Hackathon Winner",
-    date: "2024",
-    description: "Achieved first place in a national-level hackathon, developing an innovative solution for urban mobility.",
+    title: "Hackathon Winner",
+    date: "2025",
+    description: "Achieved first place in a hackathon, developing an innovative solution for urban mobility.",
   },
   {
     icon: Users,
