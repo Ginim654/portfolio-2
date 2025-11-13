@@ -91,7 +91,7 @@ export const projectsData = [
     title: "Real-time Texting App",
     description: "A real-time messaging application for instant communication.",
     tech: ["Next.js", "Tailwind CSS"],
-    link: "#",
+    link: "https://chattingtexting.netlify.app/",
     imageId: "texting-app",
   },
 ];
