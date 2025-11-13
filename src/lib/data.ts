@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Trophy, Users, Briefcase, Lightbulb, Bot, Code, Palette, Server, Terminal, Wrench } from 'lucide-react';
+import { Linkedin, Mail, Trophy, Users, Briefcase, Lightbulb, Bot, Code, Palette, Server, Terminal, Wrench, Database, GitBranch, Type, CodeXml, Component, Wind, ServerCog, BookOpen } from 'lucide-react';
 import { Icons } from '@/components/icons';
 
 export const navLinks = [
@@ -30,34 +30,16 @@ export const aboutData = {
 };
 
 export const skillsData = [
-  {
-    title: "Languages",
-    skills: [
-      { name: "C", level: 90, icon: Code },
-      { name: "Cpp", level: 95, icon: Icons.Cpp },
-      { name: "Java", level: 85, icon: Icons.Java },
-      { name: "Python", level: 80, icon: Icons.Python },
-      { name: "JavaScript", level: 75, icon: Code },
-    ],
-  },
-  {
-    title: "Frontend & Backend",
-    skills: [
-      { name: "HTML", level: 90, icon: Palette },
-      { name: "CSS", level: 85, icon: Palette },
-      { name: "API Integration", level: 80, icon: Server },
-      { name: "DBMS", level: 88, icon: Server },
-    ],
-  },
-  {
-    title: "Tools & Other",
-    skills: [
-      { name: "VS Code", level: 95, icon: Terminal },
-      { name: "Git & GitHub", level: 90, icon: Terminal },
-      { name: "System Design", level: 70, icon: Wrench },
-      { name: "OOP", level: 95, icon: Wrench },
-    ],
-  },
+  { name: 'JavaScript', icon: Icons.JavaScript },
+  { name: 'TailwindCSS', icon: Icons.TailwindCSS },
+  { name: 'React', level: 'Beginner', icon: Icons.React },
+  { name: 'Next.js', level: 'Beginner', icon: Icons.Nextjs },
+  { name: 'Node.js', level: 'Beginner', icon: Icons.Nodejs },
+  { name: 'Git', icon: GitBranch },
+  { name: 'Express.js', icon: Icons.Express },
+  { name: 'TypeScript', icon: Type },
+  { name: 'PostgreSQL', icon: Database },
+  { name: 'HTML', icon: CodeXml },
 ];
 
 
