@@ -63,8 +63,8 @@ export const projectsData = [
     title: "Sales Management App",
     description: "An application designed to manage sales data, track performance, and generate reports.",
     tech: ["Python", "Financial Tools"],
-    link: "#",
-imageId: "sales-management",
+    link: "https://successarrow.netlify.app",
+    imageId: "sales-management",
   },
   {
     title: "Dynamic Mini Projects",
